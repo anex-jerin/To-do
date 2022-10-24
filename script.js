@@ -10,7 +10,7 @@ form.addEventListener('submit',(e)=>{
         const todoEl = document.createElement('li')
         todoEl.innerText = todo
         const todoDel = document.createElement('button')
-        todoDel.innerText = 'x'
+        todoDel.innerText = 'X'
         todoDel.setAttribute('id','del')
         todos.appendChild(todoEl)
         todoEl.appendChild(todoDel)
